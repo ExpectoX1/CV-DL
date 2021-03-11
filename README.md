@@ -10,7 +10,7 @@ Dataset- Blood Cell Images This dataset contains 12,500 augmented images of bloo
 The above Convolutional Neural Network classifies the 4 classes of blood cells- Eosinophils, Monocytes, Lymphocytes and Basophiles after training. This model has 6 convolution layers, 2 dense layers, 7 dropouts and approximately 220K parameters. It gives 80% and 79% accuracy for 20 epochs.
 
 
-##Accuracy Incrementation
+## Accuracy Incrementation
 
 Following methods were using in the above model to increase accuracy: 
 Increased the number of convolution layers from 2 to 6 which caused a significant increase in accuracy. 
@@ -18,7 +18,8 @@ Decreased the number of neurons in the convolution layers and connecting layers 
 The model started overfitting so we added Dropouts to the convolution layers and decreased the Dropout values from 0.7 and 0.5 to values of 0.4 and 0.3 in the connecting layer.
 
 
-##Model Evaluation
+## Model Evaluation
+
 Accuracy
 
 ![image](https://user-images.githubusercontent.com/79239242/110827050-b3aeba80-82bb-11eb-8749-88e080047ff0.png)
